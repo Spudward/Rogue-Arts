@@ -1,0 +1,37 @@
+body {	/* Sets minumum width for the screen */
+	min-width: 520px; 
+}
+
+.navbar-nav li a:hover {  /* Causes the links on the navbar to turn a light blue colour when hovered over */
+    color: #1abc9c !important;
+}
+
+.col-centered { /* Sets bootstrap columns to display inline with eachother */
+    display:inline-block;
+    float:none;
+}
+
+#intro_container { /* Sets padding for page content */
+	padding-left: 4%;
+}
+
+#team_container {
+	padding-left: 6%;
+}
+
+hr {   /* Gives horizontal rows a different border */
+	border: 0;
+	border-top: 4px double #8C8C8C;
+}
+
+h4 { /* Aligns header text to center */
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+.carousel-inner img { /* Sets margin to be auto for each carousel img */
+	margin: auto;
+}
