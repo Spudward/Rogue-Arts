@@ -36,7 +36,7 @@ body {	/* Sets minumum width for the screen */
 	padding-left: 4%;
 }
 
-#team_container {
+#team_container { /* Sets padding for team container */
 	padding-left: 6%;
 }
 
@@ -53,10 +53,65 @@ h4 { /* Aligns header text to center */
 	text-align: center;
 }
 
-p {
+.p-content { /* sets minimum text width for paragraphs used in page*/
 	text-align: justify;
+	min-width: 210px;
 }
 
-.carousel-inner img { /* Sets margin to be auto for each carousel img */
-	margin: auto;
+.body-img{ /* Sets max size of images used in the body */
+	max-height: 400px;
+	max-width: 400px;
+}
+
+.overlay{ /* Positions overlay over video to darken it slightly*/
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	height: 100%;
+  	width: 100%;
+  	background-color: black;
+  	opacity: 0.5;
+  	z-index: 1;
+}
+
+.text-overlay{ /* Sets position of text and makes it appear in front of the video and overlay*/
+	position: relative;
+	z-index: 2 !important;
+}
+
+.vid-holder{ /* Sets size of div that holds video */
+	height: 100vh;
+    	width: 100vh;
+   	min-width: 100%;
+  	min-height: 100%;
+    	overflow: hidden;
+    	position: relative;
+}
+
+.fullscreen-vid{ /* Sets size of video inside of div, also sets position*/
+   	min-width: 100%;
+  	min-height: 100%;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translateX(-50%) translateY(-50%);
+	z-index: 0;
+	object-fit: fill;
+}
+
+.fullscreen-link{ /* Makes the entirety of the div a link*/
+ position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  z-index: 3;
+}
+
+.caption{
+	position: absolute;
+	top: 45%;
+	left: 0;
+	width: 100%;
+	z-index: 2;
 }
