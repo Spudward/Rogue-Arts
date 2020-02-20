@@ -31,11 +31,37 @@ public class AIHiveMind : MonoBehaviour
             {
                 Vector3 worldPoint = worldBottomLeft + Vector3.right * (x * nodeDiameter + nodeRadius) + Vector3.forward * (y * nodeDiameter + nodeRadius);
                 bool walkable = !(Physics.CheckSphere(worldPoint, nodeRadius, unwalkable));
-                grid[x, y] = new NodeClass(walkable, worldPoint);
+                grid[x, y] = new NodeClass(walkable, worldPoint, x, y);
             }
         }
     }
 
+    public List<NodeClass> GetNeighbours(NodeClass node)
+    {
+        List<NodeClass> neighbours = new List<NodeClass>();
+
+        for (int x = -1; x <= 1; x++)
+        {
+            for (int y = -1; y <= 1; y++)
+            {
+                if (x == 0 && y == 0)
+                {
+                    continue;
+                }
+                int checkX = node.gridX + x;
+                int checkY = node.gridY + y;
+
+                if (checkX >= 0 && checkX < gridSizex && checkY >= 0 && checkY < gridSizey)
+                {
+                    neighbours.Add(grid[checkX, checkY]);
+                }
+            }
+        }
+
+        return neighbours;
+    }
+
+    public List<NodeClass> path;
     public NodeClass NodeFromWorldPoint(Vector3 worldPosition)
     {
         float percentX = (worldPosition.x + gridSize.x / 2) / gridSize.x;
@@ -58,10 +84,18 @@ public class AIHiveMind : MonoBehaviour
             foreach (NodeClass node in grid)
             {
                 Gizmos.color = (node.walkable) ? Color.white : Color.red;
+                if (path != null)
+                {
+                    if (path.Contains(node))
+                    {
+                        Gizmos.color = Color.green;
+                    }
+                }
                 if (targetNode == node)
                 {
                     Gizmos.color = Color.blue;
                 }
+                
                 Gizmos.DrawCube(node.worldPos, Vector3.one * (nodeDiameter-0.1f));
             }
         }
