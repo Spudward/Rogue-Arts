@@ -1,0 +1,62 @@
+body {	/* Sets minumum width for the screen */
+	min-width: 520px;
+	font-size: 20px;
+}
+
+.navbar-nav li a:hover {  /* Causes the links on the navbar to turn a light blue colour when hovered over */
+    color: #1abc9c !important;
+}
+
+.col-centered { /* Sets bootstrap columns to display inline with eachother */
+    display:inline-block;
+    float:none;
+}
+
+.fa { /* sets general layout of social media icons, also makes them round */
+ 	padding: 20px;
+	font-size: 25px;
+	height: 60px;
+  	width: 60px;
+  	text-align: center;
+	text-decoration: none !important; 
+  	border-radius: 50%;
+}
+
+.fa-facebook{ /* gives iconic facebook background */
+	background-color: #3B5998;
+	color: white;
+}
+
+.fa-twitter { /* gives iconic twitter background */
+  	background: #55ACEE;
+  	color: white;
+}
+
+#intro_container { /* Sets padding for page content */
+	padding-left: 4%;
+}
+
+#team_container {
+	padding-left: 6%;
+}
+
+#navbar_logo{ /* centres team logo */
+	margin-left: 27%;
+}
+
+hr {   /* Gives horizontal rows a different border */
+	border: 0;
+	border-top: 4px double #8C8C8C;
+}
+
+h4 { /* Aligns header text to center */
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+.carousel-inner img { /* Sets margin to be auto for each carousel img */
+	margin: auto;
+}
