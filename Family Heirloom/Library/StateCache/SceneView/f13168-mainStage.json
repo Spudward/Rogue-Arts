@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":310.1957092285156,"y":-1703.9967041015625,"z":2127.59619140625},"rotation":{"x":0.32829299569129946,"y":0.04190198704600334,"z":-0.014528952538967133,"w":0.9436137676239014},"size":2860.716552734375,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":20.51951026916504,"y":-6.704281806945801,"z":-11.82433032989502},"rotation":{"x":-0.08393090218305588,"y":-0.827573299407959,"z":0.1286417692899704,"w":-0.5399490594863892},"size":43.01948928833008,"orthographic":false}
+>>>>>>> Christos
