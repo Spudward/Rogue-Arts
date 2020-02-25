@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/BasicLevel.unity
-=======
-- path: Assets/Scenes/CHRIstostest.unity
->>>>>>> Christos
   isLoaded: 1
   isActive: 1
   isSubScene: 0
