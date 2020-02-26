@@ -65,7 +65,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AIHiveMind.cs" />
     <Compile Include="Assets\Scripts\Classes\NodeClass.cs" />
+    <Compile Include="Assets\Scripts\Heap.cs" />
     <Compile Include="Assets\Scripts\Pathfinding.cs" />
+    <Compile Include="Assets\Scripts\PathRequestManager.cs" />
+    <Compile Include="Assets\Scripts\Unit.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/andre/OneDrive/Desktop/UnityProjects/Rogue-Arts/Family Heirloom/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
