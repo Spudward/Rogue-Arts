@@ -55,8 +55,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Quixel\Scripts\BridgeImporter\MegascansBridgeLink.cs" />
+     <Compile Include="Assets\Quixel\Scripts\BridgeImporter\MegascansDecalTools.cs" />
+     <Compile Include="Assets\Quixel\Scripts\BridgeImporter\MegascansImageUtils.cs" />
+     <Compile Include="Assets\Quixel\Scripts\BridgeImporter\MegascansImporter.cs" />
+     <Compile Include="Assets\Quixel\Scripts\BridgeImporter\MegascansImporterWindow.cs" />
+     <Compile Include="Assets\Quixel\Scripts\BridgeImporter\MegascansMeshUtils.cs" />
+     <Compile Include="Assets\Quixel\Scripts\BridgeImporter\MegascansPostProcess.cs" />
+     <Compile Include="Assets\Quixel\Scripts\BridgeImporter\MegascansTerrainTools.cs" />
+     <Compile Include="Assets\Quixel\Scripts\BridgeImporter\MegascansUtilities.cs" />
+     <Compile Include="Assets\Quixel\Scripts\Tools\PoissonDiscSampling.cs" />
      <Compile Include="Assets\TEst\mose_look_christos.cs" />
      <Compile Include="Assets\TEst\player_MOVEMENT_christos.cs" />
+     <Compile Include="Assets\UnityPackages\JsonNetSample\JsonNetSample.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>R:/Repos/Rogue-Arts/Family Heirloom/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -260,6 +271,9 @@
  </Reference>
  <Reference Include="UnityEngine.XRModule">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>R:/Repos/Rogue-Arts/Family Heirloom/Assets/UnityPackages/JsonNet/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
