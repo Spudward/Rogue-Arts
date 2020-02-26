@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
+using System;
 using UnityEngine;
 
 public class Pathfinding : MonoBehaviour
@@ -89,11 +89,9 @@ public class Pathfinding : MonoBehaviour
         }
 
         Vector3[] waypoints = SimplifyPath(path);
-        //Vector3[] waypoints = path.ToArray();
-
-        waypoints.Reverse();
 
 
+        Array.Reverse(waypoints);
 
         grid.path = path;
 
