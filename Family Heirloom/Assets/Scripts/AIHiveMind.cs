@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AIHiveMind : MonoBehaviour
 {
+    public bool onlyDisplayPathGizmos;
     public Transform target;
     public LayerMask unwalkable;
     public Vector2 gridSize;
@@ -13,7 +14,7 @@ public class AIHiveMind : MonoBehaviour
     float nodeDiameter;
     int gridSizex, gridSizey;
 
-    void Start()
+    void Awake()
     {
         nodeDiameter = nodeRadius * 2;
         gridSizex = Mathf.RoundToInt(gridSize.x / nodeDiameter);
@@ -21,6 +22,13 @@ public class AIHiveMind : MonoBehaviour
         CreateGrid();
     }
 
+    public int MaxSize
+    {
+        get
+        {
+            return gridSizex * gridSizey;
+        }
+    }
     void CreateGrid()
     {
         grid = new NodeClass[gridSizex, gridSizey];
@@ -78,25 +86,41 @@ public class AIHiveMind : MonoBehaviour
     {
         Gizmos.DrawWireCube(transform.position, new Vector3(gridSize.x, 1, gridSize.y));
 
-        if (grid != null)
+        if (onlyDisplayPathGizmos)
         {
-            NodeClass targetNode = NodeFromWorldPoint(target.position);
-            foreach (NodeClass node in grid)
+            if (path != null)
             {
-                Gizmos.color = (node.walkable) ? Color.white : Color.red;
-                if (path != null)
+                foreach (NodeClass n in path)
                 {
-                    if (path.Contains(node))
+                    Gizmos.color = Color.green;
+                    Gizmos.DrawCube(n.worldPos, Vector3.one * (nodeDiameter - 0.1f));
+
+                }
+            }
+        }
+        else
+        {
+
+            if (grid != null)
+            {
+                NodeClass targetNode = NodeFromWorldPoint(target.position);
+                foreach (NodeClass node in grid)
+                {
+                    Gizmos.color = (node.walkable) ? Color.white : Color.red;
+                    if (path != null)
                     {
-                        Gizmos.color = Color.green;
+                        if (path.Contains(node))
+                        {
+                            Gizmos.color = Color.green;
+                        }
                     }
+                    if (targetNode == node)
+                    {
+                        Gizmos.color = Color.blue;
+                    }
+
+                    Gizmos.DrawCube(node.worldPos, Vector3.one * (nodeDiameter - 0.1f));
                 }
-                if (targetNode == node)
-                {
-                    Gizmos.color = Color.blue;
-                }
-                
-                Gizmos.DrawCube(node.worldPos, Vector3.one * (nodeDiameter-0.1f));
             }
         }
     }
