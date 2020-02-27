@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43.2
-    width: 1536
-    height: 780.8
+    x: 2560
+    y: 43
+    width: 2560
+    height: 1357
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
@@ -42,16 +42,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1536
-    height: 731
-  m_MinSize: {x: 683, y: 494}
+    width: 2560
+    height: 1307
+  m_MinSize: {x: 681, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 50
 =======
   controlID: 54
 >>>>>>> origin/Christos
+=======
+  controlID: 154
+>>>>>>> Robin
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -67,10 +71,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1225
     y: 0
     width: 311
     height: 731
+=======
+    x: 2042
+    y: 0
+    width: 518
+    height: 1307
+>>>>>>> Robin
   m_MinSize: {x: 277, y: 72}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 14}
@@ -96,8 +107,13 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 379
     height: 536
+=======
+    width: 505
+    height: 789
+>>>>>>> Robin
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 =======
@@ -128,6 +144,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 536
     width: 1531
     height: 411
@@ -136,6 +153,11 @@ MonoBehaviour:
     width: 1225
     height: 289
 >>>>>>> origin/Christos
+=======
+    y: 789
+    width: 2042
+    height: 518
+>>>>>>> Robin
   m_MinSize: {x: 232, y: 272}
   m_MaxSize: {x: 10002, y: 10022}
   m_ActualView: {fileID: 13}
@@ -164,8 +186,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1536
-    height: 781
+    width: 2560
+    height: 1357
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -185,7 +207,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1536
+    width: 2560
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -206,8 +228,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 761
-    width: 1536
+    y: 1337
+    width: 2560
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -230,12 +252,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1225
     height: 731
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
   controlID: 55
+=======
+    width: 2042
+    height: 1307
+  m_MinSize: {x: 404, y: 494}
+  m_MaxSize: {x: 10002, y: 14044}
+  vertical: 1
+  controlID: 87
+>>>>>>> Robin
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -256,6 +287,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1531
     height: 536
 =======
@@ -266,6 +298,14 @@ MonoBehaviour:
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
   controlID: 56
+=======
+    width: 2042
+    height: 789
+  m_MinSize: {x: 404, y: 222}
+  m_MaxSize: {x: 8004, y: 4022}
+  vertical: 0
+  controlID: 88
+>>>>>>> Robin
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -281,6 +321,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 303
     y: 0
 <<<<<<< HEAD
@@ -290,6 +331,12 @@ MonoBehaviour:
     width: 922
     height: 442
 >>>>>>> origin/Christos
+=======
+    x: 505
+    y: 0
+    width: 1537
+    height: 789
+>>>>>>> Robin
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 16}
@@ -346,6 +393,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
 <<<<<<< HEAD
     y: 609
@@ -356,6 +404,12 @@ MonoBehaviour:
     width: 1225
     height: 270
 >>>>>>> origin/Christos
+=======
+    x: 2560
+    y: 862
+    width: 2042
+    height: 499
+>>>>>>> Robin
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -368,6 +422,7 @@ MonoBehaviour:
     m_ReferencingInstanceIDs: 
     m_SceneHandles: 
     m_ShowAllHits: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_SkipHidden: 1
     m_SearchArea: 1
@@ -386,12 +441,23 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/TEst
 >>>>>>> origin/Christos
+=======
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Quixel
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Quixel
+>>>>>>> Robin
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\cris\Documents\GitHub\Rogue-Arts\Family Heirloom
+  m_LastProjectPath: R:\Repos\Rogue-Arts\Family Heirloom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_SelectedIDs: d42e0000
     m_LastClickedID: 11988
@@ -401,6 +467,11 @@ MonoBehaviour:
     m_LastClickedID: 1000000002
     m_ExpandedIDs: 000000009c2c000000ca9a3b
 >>>>>>> origin/Christos
+=======
+    m_SelectedIDs: c82f0000
+    m_LastClickedID: 12232
+    m_ExpandedIDs: 00000000902d000000ca9a3b
+>>>>>>> Robin
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -429,10 +500,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000922c0000
 =======
     m_ExpandedIDs: 000000009c2c0000
 >>>>>>> origin/Christos
+=======
+    m_ExpandedIDs: 00000000902d0000
+>>>>>>> Robin
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -509,10 +584,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1224.8
     y: 73.6
     width: 309
     height: 712
+=======
+    x: 4602
+    y: 73
+    width: 516
+    height: 1288
+>>>>>>> Robin
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -545,6 +627,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
 <<<<<<< HEAD
     y: 73
@@ -555,10 +638,17 @@ MonoBehaviour:
     width: 303
     height: 423
 >>>>>>> origin/Christos
+=======
+    x: 2560
+    y: 73
+    width: 505
+    height: 770
+>>>>>>> Robin
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
       m_SelectedIDs: aa2f0000
       m_LastClickedID: 12202
@@ -568,6 +658,11 @@ MonoBehaviour:
       m_LastClickedID: 13396
       m_ExpandedIDs: b6f8ffffdef8ffff08f9ffffbcfaffff70fbffff4a350000
 >>>>>>> origin/Christos
+=======
+      m_SelectedIDs: cc310000
+      m_LastClickedID: 12748
+      m_ExpandedIDs: baf9ffff
+>>>>>>> Robin
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -590,7 +685,11 @@ MonoBehaviour:
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
+<<<<<<< HEAD
   m_WindowGUID: 9ac9d7fa8d7c90745a99a0328d34f655
+=======
+  m_WindowGUID: 1ddea24c7d316794fbae635fbbbdc39f
+>>>>>>> Robin
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -613,6 +712,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 379
     y: 73
     width: 1150
@@ -629,6 +729,15 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: 7f09caf78643b9c42a30239146865a99
 >>>>>>> origin/Christos
+=======
+    x: 3065
+    y: 73
+    width: 1535
+    height: 770
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 6728f5f27ef83eb45a5a80f948e4a0e5
+>>>>>>> Robin
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -637,9 +746,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -4.793706, y: -11.876996, z: 3.2982368}
     speed: 2
     m_Value: {x: -4.793706, y: -11.876996, z: 3.2982368}
+=======
+    m_Target: {x: -37.686314, y: 3.3361359, z: 28.56836}
+    speed: 2
+    m_Value: {x: -37.686314, y: 3.3361359, z: 28.56836}
+>>>>>>> Robin
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -668,6 +783,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.3161409, y: -0.66644955, z: 0.37541428, w: 0.5612273}
     speed: 2
     m_Value: {x: 0.316139, y: -0.66644555, z: 0.37541205, w: 0.561224}
@@ -681,6 +797,15 @@ MonoBehaviour:
     speed: 2
     m_Value: 35.151756
 >>>>>>> origin/Christos
+=======
+    m_Target: {x: -0.11747474, y: 0.4089719, z: -0.05318009, w: -0.90340495}
+    speed: 2
+    m_Value: {x: -0.11747316, y: 0.4089664, z: -0.053179376, w: -0.9033928}
+  m_Size:
+    m_Target: 72.0014
+    speed: 2
+    m_Value: 72.0014
+>>>>>>> Robin
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -700,10 +825,14 @@ MonoBehaviour:
     m_OcclusionCulling: 0
   m_ShowGlobalGrid: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastSceneViewRotation: {x: -0.45108408, y: 0.5412571, z: -0.43620756, w: -0.55977654}
 =======
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
 >>>>>>> origin/Christos
+=======
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>> Robin
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -732,6 +861,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 379
     y: 73
     width: 1150
@@ -742,6 +872,12 @@ MonoBehaviour:
     width: 920
     height: 423
 >>>>>>> origin/Christos
+=======
+    x: 3065
+    y: 73
+    width: 1535
+    height: 770
+>>>>>>> Robin
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
@@ -755,6 +891,7 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -444.5
     m_HBaseRangeMax: 444.5
     m_VBaseRangeMin: -250
@@ -765,6 +902,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -162.40001
     m_VBaseRangeMax: 162.40001
 >>>>>>> origin/Christos
+=======
+    m_HBaseRangeMin: -767.5
+    m_HBaseRangeMax: 767.5
+    m_VBaseRangeMin: -376.5
+    m_VBaseRangeMax: 376.5
+>>>>>>> Robin
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -783,6 +926,7 @@ MonoBehaviour:
       x: 0
       y: 17
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 1150
       height: 500
     m_Scale: {x: 1, y: 1}
@@ -793,12 +937,19 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 460, y: 203}
 >>>>>>> origin/Christos
+=======
+      width: 1535
+      height: 753
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 767.5, y: 376.5}
+>>>>>>> Robin
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -575
       y: -250
@@ -810,15 +961,25 @@ MonoBehaviour:
       width: 920
       height: 406
 >>>>>>> origin/Christos
+=======
+      x: -767.5
+      y: -376.5
+      width: 1535
+      height: 753
+>>>>>>> Robin
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 1150, y: 517}
 =======
   m_LastWindowPixelSize: {x: 1150, y: 528.75}
 >>>>>>> origin/Christos
+=======
+  m_LastWindowPixelSize: {x: 1535, y: 770}
+>>>>>>> Robin
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -844,8 +1005,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 8
     y: 718
     width: 1366
     height: 308
+=======
+    x: 0
+    y: 863
+    width: 2042
+    height: 498
+>>>>>>> Robin
   m_ViewDataDictionary: {fileID: 0}
