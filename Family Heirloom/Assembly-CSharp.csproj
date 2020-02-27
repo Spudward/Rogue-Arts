@@ -70,11 +70,11 @@
     <Compile Include="Assets\Scripts\AIHiveMind.cs" />
     <Compile Include="Assets\Scripts\Classes\NodeClass.cs" />
     <Compile Include="Assets\Scripts\Heap.cs" />
+    <Compile Include="Assets\Scripts\mose_look_christos.cs" />
     <Compile Include="Assets\Scripts\Pathfinding.cs" />
     <Compile Include="Assets\Scripts\PathRequestManager.cs" />
+    <Compile Include="Assets\Scripts\player_MOVEMENT_christos.cs" />
     <Compile Include="Assets\Scripts\Unit.cs" />
-    <Compile Include="Assets\TEst\mose_look_christos.cs" />
-    <Compile Include="Assets\TEst\player_MOVEMENT_christos.cs" />
     <Compile Include="Assets\UnityPackages\JsonNetSample\JsonNetSample.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/Github/Rogue-Arts/Family Heirloom/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
