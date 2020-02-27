@@ -451,9 +451,13 @@ GameObject:
   - component: {fileID: 233297657}
   - component: {fileID: 233297656}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Layer: 8
 =======
   m_Layer: 0
+>>>>>>> Robin
+=======
+  m_Layer: 8
 >>>>>>> Robin
   m_Name: Plane
   m_TagString: Untagged
@@ -2883,9 +2887,13 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Bits: 1
 =======
     m_Bits: 257
+>>>>>>> Robin
+=======
+    m_Bits: 256
 >>>>>>> Robin
 --- !u!143 &1708756645
 CharacterController:
