@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":4.494550704956055,"y":-6.072895050048828,"z":3.675715446472168},"rotation":{"x":0.331429660320282,"y":-0.3191250264644623,"z":0.12023226171731949,"w":0.879692018032074},"size":40.1748046875,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":3.446725845336914,"y":-6.382045745849609,"z":2.4865150451660158},"rotation":{"x":0.32813626527786257,"y":-0.10034846514463425,"z":0.03508065640926361,"w":0.9386308789253235},"size":35.18983459472656,"orthographic":false}
+>>>>>>> Robin
