@@ -41,13 +41,13 @@ public class player_MOVEMENT_christos : MonoBehaviour
         {
             speed = walkspeed;
         }
-        if (Input.GetKeyDown(KeyCode.LeftControl))
+        if (Input.GetKeyDown(KeyCode.LeftAlt))
         {
             t_mesh.localScale = new Vector3(1, LocalScaleY, 1);
             Controller.height = ControllerHeight;
             speed = crouchspeed;
         }
-        if (Input.GetKeyUp(KeyCode.LeftControl))
+        if (Input.GetKeyUp(KeyCode.LeftAlt))
         {
             t_mesh.localScale = new Vector3(1, 1, 1);
             Controller.height = 2.8f;
