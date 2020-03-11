@@ -6,6 +6,9 @@ public class player_MOVEMENT_christos : MonoBehaviour
 {
     public CharacterController Controller;
     public float speed = 12f;
+    public float runspeed = 17f;
+    public float walkspeed = 12f;
+    public float crouchspeed = 5f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
     Vector3 velocity;
@@ -13,6 +16,7 @@ public class player_MOVEMENT_christos : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
     bool isgrounded;
+    
 
     // Update is called once per frame
     void Update()
@@ -24,6 +28,14 @@ public class player_MOVEMENT_christos : MonoBehaviour
         }
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            speed = runspeed;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed = walkspeed;
+        }
 
         Vector3 move = transform.right * x + transform.forward * z;
         Controller.Move(move * speed * Time.deltaTime);
