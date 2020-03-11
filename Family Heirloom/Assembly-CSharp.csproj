@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\TEst\mose_look_christos.cs" />
      <Compile Include="Assets\TEst\player_MOVEMENT_christos.cs" />
+     <Compile Include="Assets\TEst\ShootDemo.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/cris/Documents/GitHub/Rogue-Arts/Family Heirloom/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
