@@ -283,6 +283,6 @@
 /define:ENABLE_TIMELINE
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-Assets\ShootDemo.cs
 Assets\TEst\mose_look_christos.cs
 Assets\TEst\player_MOVEMENT_christos.cs
+Assets\TEst\ShootDemo.cs

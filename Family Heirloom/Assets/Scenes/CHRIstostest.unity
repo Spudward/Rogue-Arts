@@ -603,6 +603,10 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 256
+  t_mesh: {fileID: 1482457253}
+  IsCrouch: 0
+  LocalScaleY: 0.8
+  ControllerHeight: 1.8
 --- !u!1 &1876002210
 GameObject:
   m_ObjectHideFlags: 0
