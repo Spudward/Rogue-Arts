@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\TEst\christos_gun.cs" />
      <Compile Include="Assets\TEst\mose_look_christos.cs" />
      <Compile Include="Assets\TEst\player_MOVEMENT_christos.cs" />
      <Compile Include="Assets\TEst\ShootDemo.cs" />
