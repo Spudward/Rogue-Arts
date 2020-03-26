@@ -6,12 +6,115 @@ public class Unit : MonoBehaviour
 {
     public Transform target;
     public float speed = 5f;
+    public float visionRange = 5f;
+    public float coneAngle;
+    Vector3 lastPlayerPos;
+    public bool canSeePlayer;
     Vector3[] path;
     int targetIndex = 0;
+    public List<GameObject> openPatrolPoints = new List<GameObject>();
+    public List<GameObject> closedPatrolPoints = new List<GameObject>();
+    GameObject currentPoint;
+
+    public enum Conditions
+    {
+        PATROL,
+        FOLLOWPLAYER,
+        MOVETOLASTSEENLOC
+    }
+    public Conditions myCondition;
 
     void Start()
     {
-        PathRequestManager.RequestPath(transform.position, target.position, OnPathFound);
+        myCondition = Conditions.PATROL;
+        openPatrolPoints.AddRange (GameObject.FindGameObjectsWithTag("Patrol"));
+        currentPoint = null;
+    }
+
+    void Update()
+    {
+        ConeOfVision();
+        switch (myCondition) {
+            case Conditions.PATROL:
+                //move between posible hiding spots, starting at the closest one.
+
+                if (openPatrolPoints.Count > 0)
+                {
+                    if (currentPoint == null)
+                    {
+                        float distance = 10000;
+                        foreach (GameObject point in openPatrolPoints)
+                        {
+                            print(currentPoint);
+                            float myDistance = (transform.position - point.transform.position).magnitude;
+                            if (myDistance <= distance)
+                            {
+                                currentPoint = point;
+                                distance = myDistance;
+                            }
+                            
+                        }
+                        print("Pathing");
+
+                    } else
+                    {
+                        PathRequestManager.RequestPath(transform.position, currentPoint.transform.position, OnPathFound);
+                        if (transform.position == currentPoint.transform.position)
+                        {
+                            openPatrolPoints.Remove(currentPoint);
+                            closedPatrolPoints.Add(currentPoint);
+                            currentPoint = null;
+                        }
+                    }
+                } else
+                {
+                    openPatrolPoints = closedPatrolPoints;
+                    closedPatrolPoints = new List<GameObject>();
+                }
+                break;
+            case Conditions.FOLLOWPLAYER:
+                //follow the player if they can be seen
+                PathRequestManager.RequestPath(transform.position, target.position, OnPathFound);
+                if (!canSeePlayer)
+                {
+                    myCondition = Conditions.MOVETOLASTSEENLOC;
+                }
+                break;
+            case Conditions.MOVETOLASTSEENLOC:
+                //move to the last known position of the player, if they cannot be seen then we continue patroling.
+                PathRequestManager.RequestPath(transform.position, lastPlayerPos, OnPathFound);
+                if (transform.position == lastPlayerPos)
+                {
+                    myCondition = Conditions.PATROL;
+                }
+                break;
+        }    
+    }
+
+    void ConeOfVision ()
+    {
+        if (Vector3.Angle(target.position-transform.position, transform.forward) < coneAngle)
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, (target.position - transform.position).normalized, out hit, visionRange))
+            {
+
+
+                if (hit.collider.gameObject == target)
+                {
+                    canSeePlayer = true;
+                    lastPlayerPos = target.position;
+                    if (myCondition != Conditions.FOLLOWPLAYER)
+                    {
+                        myCondition = Conditions.FOLLOWPLAYER;
+                    }
+                }
+            }
+        }
+        else
+        {
+            canSeePlayer = false;
+        }
     }
 
     public void OnPathFound (Vector3[] newPath, bool pathSuccessful)
@@ -26,7 +129,6 @@ public class Unit : MonoBehaviour
     IEnumerator FollowPath ()
     {
         Vector3 currentWaypoint = path[0];
-        print(currentWaypoint);
         
         while (true)
         {
