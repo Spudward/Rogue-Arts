@@ -660,7 +660,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415761962}
   serializedVersion: 6
-  lengthInSec: 5
+  lengthInSec: 2
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -668,7 +668,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -735,7 +735,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 3
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -788,7 +788,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 7.06
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1485,7 +1485,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 40
+      scalar: 60
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -5591,6 +5591,7 @@ MonoBehaviour:
   bullet_emitter: {fileID: 1245338524}
   bullet: {fileID: 1403441312914756666, guid: 21decc9c38bc42740ad8e2a73c4a9fff, type: 3}
   bullet_speed: 20
+  sprae: {fileID: 1415761965}
 --- !u!1 &2046586636
 GameObject:
   m_ObjectHideFlags: 0
