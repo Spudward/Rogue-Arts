@@ -7,10 +7,13 @@ public class christos_gun : MonoBehaviour
     public GameObject bullet_emitter;
     public GameObject bullet;
     public float bullet_speed;
+
+    public ParticleSystem sprae;
+    //ParticleSystem spraeAll;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //spraeAll = Instantiate(sprae);
     }
 
     // Update is called once per frame
@@ -25,6 +28,7 @@ public class christos_gun : MonoBehaviour
             tem_Rigidbody = tem_bullet_han.GetComponent<Rigidbody>();
             tem_Rigidbody.velocity = transform.TransformDirection(new Vector3(0, 0, bullet_speed));
             Destroy(tem_bullet_han, 5f);
+            sprae.Play();
         }
     }
 }
