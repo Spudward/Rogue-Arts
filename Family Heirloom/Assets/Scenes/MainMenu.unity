@@ -756,7 +756,18 @@ MonoBehaviour:
   m_Value: -80
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1286525655}
+        m_MethodName: SetVolume
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &343799596
 GameObject:
   m_ObjectHideFlags: 0
@@ -2860,6 +2871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c501f1b700d9124b8b9f87be225eaf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slide: {fileID: 320067439}
 --- !u!1 &1296834619
 GameObject:
   m_ObjectHideFlags: 0
