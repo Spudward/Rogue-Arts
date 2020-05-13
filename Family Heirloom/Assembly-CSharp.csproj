@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\Materials\christos_gun.cs" />
     <Compile Include="Assets\Materials\ShootDemo.cs" />
     <Compile Include="Assets\Quixel\Scripts\BridgeImporter\MegascansBridgeLink.cs" />
@@ -88,6 +89,34 @@
     <Compile Include="Assets\Scripts\player_MOVEMENT_christos.cs" />
     <Compile Include="Assets\Scripts\Unit.cs" />
     <Compile Include="Assets\UnityPackages\JsonNetSample\JsonNetSample.cs" />
+=======
+    <Compile Include="Assets\KD_ScienceDesk\ExampleScene\Scripts\CupboardDoorState.cs" />
+    <Compile Include="Assets\KD_ScienceDesk\ExampleScene\Scripts\DrawerState.cs" />
+    <Compile Include="Assets\KD_ScienceDesk\ExampleScene\Scripts\ExampleSceneController.cs" />
+    <Compile Include="Assets\Sci Fi Modular Pack\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\cameraMovement.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\OptionsMenu.cs" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\KD_ScienceDesk\ReadMe.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+>>>>>>> Luke
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/andre/Documents/GitHub/Rogue-Arts/Family Heirloom/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -292,9 +321,12 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:/Users/andre/Documents/GitHub/Rogue-Arts/Family Heirloom/Assets/UnityPackages/JsonNet/Newtonsoft.Json.dll</HintPath>
     </Reference>
+=======
+>>>>>>> Luke
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.5f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
     </Reference>

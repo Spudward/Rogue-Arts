@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-4.793705940246582,"y":-11.876996040344239,"z":3.298236846923828},"rotation":{"x":0.31614089012145998,"y":-0.6664495468139648,"z":0.37541428208351138,"w":0.5612273216247559},"size":32.27920150756836,"orthographic":false}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":20.51951026916504,"y":-6.704281806945801,"z":-11.82433032989502},"rotation":{"x":-0.08393090218305588,"y":-0.827573299407959,"z":0.1286417692899704,"w":-0.5399490594863892},"size":43.01948928833008,"orthographic":false}
@@ -22,3 +23,6 @@
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":55.34587097167969,"y":-45.371124267578128,"z":77.44685363769531},"rotation":{"x":-0.23710772395133973,"y":-0.13587191700935365,"z":0.033517662435770038,"w":-0.961373507976532},"size":314.531982421875,"orthographic":false}
 >>>>>>> origin/Luke
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-71.38294219970703,"y":2.0781092643737795,"z":22.679534912109376},"rotation":{"x":0.01942054182291031,"y":0.6017888188362122,"z":-0.014604066498577595,"w":0.7984838485717773},"size":2.9740614891052248,"orthographic":false}
+>>>>>>> Luke
