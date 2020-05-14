@@ -16,6 +16,8 @@ public class InfectionLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.visible = false;
+
         movement = GetComponent<player_MOVEMENT_christos>();
 
         //set infection to MIN_INFECTION (0)

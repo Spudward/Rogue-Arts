@@ -92,6 +92,7 @@
     <Compile Include="Assets\Scripts\PathRequestManager.cs" />
     <Compile Include="Assets\Scripts\player_MOVEMENT_christos.cs" />
     <Compile Include="Assets\Scripts\Unit.cs" />
+    <Compile Include="Assets\testScript.cs" />
     <Compile Include="Assets\UnityPackages\JsonNetSample\JsonNetSample.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

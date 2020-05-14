@@ -1,5 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net.Mime;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class Unit : MonoBehaviour
@@ -45,12 +48,12 @@ public class Unit : MonoBehaviour
                         float distance = 10000;
                         foreach (GameObject point in openPatrolPoints)
                         {
-                            print(currentPoint);
                             float myDistance = (transform.position - point.transform.position).magnitude;
                             if (myDistance <= distance)
                             {
                                 currentPoint = point;
                                 distance = myDistance;
+                                print(currentPoint);
                             }
                             
                         }
@@ -58,8 +61,9 @@ public class Unit : MonoBehaviour
 
                     } else
                     {
+
                         PathRequestManager.RequestPath(transform.position, currentPoint.transform.position, OnPathFound);
-                        if (transform.position == currentPoint.transform.position)
+                        if ((transform.position - currentPoint.transform.position).magnitude <= 5)
                         {
                             openPatrolPoints.Remove(currentPoint);
                             closedPatrolPoints.Add(currentPoint);
@@ -91,25 +95,34 @@ public class Unit : MonoBehaviour
         }    
     }
 
-    void ConeOfVision ()
+    void ConeOfVision()
     {
+        
         if (Vector3.Angle(target.position-transform.position, transform.forward) < coneAngle)
         {
+
             RaycastHit hit;
             if (Physics.Raycast(transform.position, (target.position - transform.position).normalized, out hit, visionRange))
             {
 
 
-                if (hit.collider.gameObject == target)
+                if (hit.collider.gameObject.CompareTag("Player"))
                 {
                     canSeePlayer = true;
                     lastPlayerPos = target.position;
-                    if (myCondition != Conditions.FOLLOWPLAYER)
-                    {
-                        myCondition = Conditions.FOLLOWPLAYER;
-                    }
+                    myCondition = Conditions.FOLLOWPLAYER;
+                    
+                }
+                else
+                {
+                    canSeePlayer = false;
                 }
             }
+            else
+            {
+                canSeePlayer = false;
+            }
+
         }
         else
         {
@@ -139,7 +152,11 @@ public class Unit : MonoBehaviour
                 {
                     yield break;
                 }
+                
                 currentWaypoint = path[targetIndex];
+                Vector3 targetDirection = currentWaypoint - transform.position;
+                float singleStep = speed * Time.deltaTime;
+                Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetDirection, singleStep, 0.0f);
                 print(currentWaypoint);
             }
             transform.position = Vector3.MoveTowards(transform.position, currentWaypoint, speed);
