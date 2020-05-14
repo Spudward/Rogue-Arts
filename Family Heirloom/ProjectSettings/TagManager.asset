@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Patrol
+  - Drawer
+  - CupboardDoor
+  - Enemy
   layers:
   - Default
   - TransparentFX

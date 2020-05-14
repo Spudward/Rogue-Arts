@@ -40,7 +40,7 @@ public class InfectionLevel : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         //if you collide with the seeker, be attacked
-        if(other.gameObject == seeker)
+        if(other.gameObject.CompareTag("Enemy"))
         {
             attacked = true;
         }
