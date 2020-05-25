@@ -6,17 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Scenes/LsbDesign.unity
-    guid: 1094edc764b6bbd4287df446ac1154a0
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: dc4e99a99951f6740b6b493805977fa0
-=======
-    path: Assets/Scenes/MainMenu.unity
-    guid: ade832a343b0dca459025a5ed09e48ca
   - enabled: 1
-    path: Assets/Scenes/BasicLevel.unity
-    guid: f167a1b30cb5a6948833959e119454ed
->>>>>>> Robin
+    path: Assets/Scenes/LsbDesign.unity
+    guid: 1094edc764b6bbd4287df446ac1154a0
   m_configObjects: {}
