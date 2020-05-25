@@ -27,8 +27,13 @@ MonoBehaviour:
 >>>>>>> Robin
   m_ShowMode: 4
   m_Title: 
+<<<<<<< HEAD
   m_RootView: {fileID: 6}
   m_MinSize: {x: 950, y: 544}
+=======
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Luke
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -48,6 +53,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 30
 <<<<<<< HEAD
     width: 1920
@@ -64,6 +70,13 @@ MonoBehaviour:
   vertical: 0
   controlID: 112
 >>>>>>> Robin
+=======
+    y: 0
+    width: 2048
+    height: 1069
+  m_MinSize: {x: 950, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+>>>>>>> Luke
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,6 +158,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 651
     width: 1531
     height: 296
@@ -161,6 +175,15 @@ MonoBehaviour:
   - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
+=======
+    y: 30
+    width: 2048
+    height: 1019
+  m_MinSize: {x: 713, y: 494}
+  m_MaxSize: {x: 18008, y: 14044}
+  vertical: 0
+  controlID: 147
+>>>>>>> Luke
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,6 +205,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
     height: 997
   m_MinSize: {x: 950, y: 300}
@@ -191,6 +215,14 @@ MonoBehaviour:
   m_MinSize: {x: 950, y: 544}
 >>>>>>> Robin
   m_MaxSize: {x: 10000, y: 10000}
+=======
+    width: 1493
+    height: 1019
+  m_MinSize: {x: 436, y: 494}
+  m_MaxSize: {x: 14006, y: 14044}
+  vertical: 0
+  controlID: 93
+>>>>>>> Luke
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,6 +241,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
 =======
     width: 2560
@@ -217,6 +250,14 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
+=======
+    width: 464
+    height: 1019
+  m_MinSize: {x: 232, y: 494}
+  m_MaxSize: {x: 10002, y: 14044}
+  vertical: 1
+  controlID: 52
+>>>>>>> Luke
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -292,6 +333,33 @@ MonoBehaviour:
   m_Children:
   - {fileID: 4}
   - {fileID: 11}
+<<<<<<< HEAD
+=======
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 464
+    y: 0
+    width: 1029
+    height: 1019
+  m_MinSize: {x: 204, y: 444}
+  m_MaxSize: {x: 4004, y: 8044}
+  vertical: 1
+  controlID: 94
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+>>>>>>> Luke
   m_Position:
     serializedVersion: 2
     x: 0
@@ -372,7 +440,40 @@ MonoBehaviour:
     width: 1535
     height: 770
   m_ViewDataDictionary: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &13
+=======
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 082e0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: befaffff78fbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 8}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 002c56cec11d78448a8f8dfc9879b886
+--- !u!114 &16
+>>>>>>> Luke
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -417,11 +518,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets
+=======
+    - Assets/Scenes
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scenes
+>>>>>>> Luke
   m_LastFoldersGridSize: -1
   m_LastProjectPath: R:\Repos\Rogue-Arts\Family Heirloom
   m_LockTracker:
@@ -434,10 +543,16 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000242d00003c2d0000b6310000383400005045000000ca9a3b
 =======
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 602d0000
     m_LastClickedID: 11616
     m_ExpandedIDs: 00000000602d000000ca9a3b
 >>>>>>> Robin
+=======
+    m_SelectedIDs: a02e0000
+    m_LastClickedID: 11936
+    m_ExpandedIDs: 00000000a82c0000
+>>>>>>> Luke
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -466,10 +581,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000242d00003c2d0000b63100003834000050450000
 =======
     m_ExpandedIDs: 00000000602d0000
 >>>>>>> Robin
+=======
+    m_ExpandedIDs: 00000000a82c0000
+>>>>>>> Luke
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -681,6 +800,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -2.000566, y: 0.9324511, z: 69.46353}
     speed: 2
     m_Value: {x: -2.000566, y: 0.9324511, z: 69.46353}
@@ -689,6 +809,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 782.72943, y: 443.9313, z: -14.584595}
 >>>>>>> Robin
+=======
+    m_Target: {x: -52.769306, y: -0.4993801, z: -10.510167}
+    speed: 2
+    m_Value: {x: -52.769306, y: -0.4993801, z: -10.510167}
+>>>>>>> Luke
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -718,6 +843,7 @@ MonoBehaviour:
       m_Value: 0
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.014490524, y: -0.66446865, z: 0.012619578, w: -0.74717474}
     speed: 2
     m_Value: {x: -0.014489381, y: -0.6644162, z: 0.012618583, w: -0.7471158}
@@ -734,6 +860,15 @@ MonoBehaviour:
     speed: 2
     m_Value: 740.6762
 >>>>>>> Robin
+=======
+    m_Target: {x: 0.14623366, y: 0.65707093, z: -0.13204995, w: 0.72784173}
+    speed: 2
+    m_Value: {x: 0.14623366, y: 0.65707093, z: -0.13204995, w: 0.72784173}
+  m_Size:
+    m_Target: 265.28842
+    speed: 2
+    m_Value: 253.86453
+>>>>>>> Luke
   m_Ortho:
     m_Target: 0
     speed: 2
