@@ -1,13 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- path: Assets/Scenes/LsbDesign.unity
-=======
-- path: Assets/Scenes/MainMenu.unity
->>>>>>> Robin
-=======
-- path: Assets/Scenes/LabDesign.unity
->>>>>>> Luke
+- path: Assets/Scenes/LabDesignNew.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
