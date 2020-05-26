@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\Heap.cs" />
     <Compile Include="Assets\Scripts\HitBehaviour.cs" />
     <Compile Include="Assets\Scripts\InfectionLevel.cs" />
+    <Compile Include="Assets\Scripts\Ingredients.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\mose_look_christos.cs" />
     <Compile Include="Assets\Scripts\OptionsMenu.cs" />

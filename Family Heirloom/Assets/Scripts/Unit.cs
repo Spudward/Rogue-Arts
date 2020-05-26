@@ -58,13 +58,12 @@ public class Unit : MonoBehaviour
                             }
                             
                         }
-                        print("Pathing");
 
                     } else
                     {
 
                         PathRequestManager.RequestPath(transform.position, currentPoint.transform.position, OnPathFound);
-                        if ((transform.position - currentPoint.transform.position).magnitude <= 5)
+                        if ((transform.position - currentPoint.transform.position).magnitude <= 3)
                         {
                             openPatrolPoints.Remove(currentPoint);
                             closedPatrolPoints.Add(currentPoint);
@@ -94,10 +93,16 @@ public class Unit : MonoBehaviour
                 }
                 break;
             case Conditions.STUNNED:
-                
+                StartCoroutine(Stunned());
                 break;
 
         }    
+    }
+
+    IEnumerator Stunned()
+    {
+        yield return new WaitForSeconds(3);
+        myCondition = Conditions.PATROL;
     }
 
     void ConeOfVision()
@@ -113,9 +118,12 @@ public class Unit : MonoBehaviour
 
                 if (hit.collider.gameObject.CompareTag("Player"))
                 {
-                    canSeePlayer = true;
-                    lastPlayerPos = target.position;
-                    myCondition = Conditions.FOLLOWPLAYER;
+                    if (myCondition != Conditions.STUNNED)
+                    {
+                        canSeePlayer = true;
+                        lastPlayerPos = target.position;
+                        myCondition = Conditions.FOLLOWPLAYER;
+                    }
                     
                 }
                 else
@@ -162,7 +170,7 @@ public class Unit : MonoBehaviour
                 Vector3 targetDirection = currentWaypoint - transform.position;
                 float singleStep = speed * Time.deltaTime;
                 Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetDirection, singleStep, 0.0f);
-                print(currentWaypoint);
+                
             }
             transform.position = Vector3.MoveTowards(transform.position, currentWaypoint, speed);
             yield return null;

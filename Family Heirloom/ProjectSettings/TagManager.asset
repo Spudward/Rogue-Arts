@@ -8,6 +8,7 @@ TagManager:
   - Drawer
   - CupboardDoor
   - Enemy
+  - Ingredient
   layers:
   - Default
   - TransparentFX

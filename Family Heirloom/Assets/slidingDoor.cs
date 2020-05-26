@@ -18,14 +18,14 @@ public class slidingDoor : MonoBehaviour
 
     void OnTriggerEnter(Collider coll)
     {
-        if (coll.gameObject.tag == "Player")
+        if (coll.gameObject.tag == "Player"|| coll.gameObject.tag == "Enemy")
         {
             slideDoor(true);
         }
     }
     void OnTriggerExit(Collider coll)
     {
-        if (coll.gameObject.tag == "Player")
+        if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy")
         {
             slideDoor(false);
         }
