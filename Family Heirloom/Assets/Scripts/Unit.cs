@@ -23,7 +23,8 @@ public class Unit : MonoBehaviour
     {
         PATROL,
         FOLLOWPLAYER,
-        MOVETOLASTSEENLOC
+        MOVETOLASTSEENLOC,
+        STUNNED
     }
     public Conditions myCondition;
 
@@ -92,6 +93,10 @@ public class Unit : MonoBehaviour
                     myCondition = Conditions.PATROL;
                 }
                 break;
+            case Conditions.STUNNED:
+                
+                break;
+
         }    
     }
 
